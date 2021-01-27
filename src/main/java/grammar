@@ -1,0 +1,10 @@
+S -> Name Stars Brackets
+Stars -> * Stars
+Stars -> Ampersand
+Ampersand -> Name
+Ampersand -> & Name
+
+Brackets -> ( Vars
+Vars -> )
+Vars -> Name Stars Vars
+Vars -> , Name Stars Vars
